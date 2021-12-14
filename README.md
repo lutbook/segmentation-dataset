@@ -3,9 +3,10 @@
 Combining CamVid[1] and Cityscapes[2] segmentation datasets.  
 New classes are common objects appear on both datasets.  
 Image of the camvid dataset will be resized to that of cityscapes dataset.  
+Run the script in the same directory as each datasets unzipped directory.
 No need to move files in each datasets.
 
-Before exectution, data directory must be prepared same as below.    
+Before exectution, new data directory must be prepared same as below.    
 New dataset dir tree.
 <pre>
 data__  
