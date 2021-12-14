@@ -4,6 +4,22 @@ Combining CamVid[1] and Cityscapes[2] segmentation datasets.
 New classes are common objects appear on both datasets.  
 Image of the camvid dataset will be resized to that of cityscapes dataset.  
 
+Before exectution, data directory must be prepared same as below.  
+<pre>
+data__  
+    |__test___
+    |        |__images__ ... 
+    |        |__labels__ ... 
+    |  
+    |__train__
+    |        |__images__ ...  
+    |        |__labels__ ... 
+    |  
+    |__val____
+             |___images__ ...  
+             |__labels__ ...  
+</pre>
+
 ----------------------------------------------------------------------------------------------------------
 [1]. The Cambridge-driving Labeled Video Database (CamVid):
 Segmentation and Recognition Using Structure from Motion Point Clouds, ECCV 2008 ([pdf](http://www.inf.ethz.ch/personal/gbrostow/ext/MotionSegRecECCV08.pdf))
